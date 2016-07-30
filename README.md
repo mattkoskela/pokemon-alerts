@@ -27,15 +27,15 @@ To change the search radius, use the --distance flag (defaults to 100 meters)
 
 To ignore certain Pokemon, include a csv of ids in the --ignore flag (no spaces)
 
-    pokemon-alerts --latitude 34.016641 --longitude -118.495146 --time --distance 250 --ignore 16,41
+    pokemon-alerts --latitude 34.016641 --longitude -118.495146 --time 5 --distance 250 --ignore 16,41
 
 To only look for certain Pokemon, include a csv of ids in the --include flag (no spaces)
 
-    pokemon-alerts --latitude 34.016641 --longitude -118.495146 --time --distance 250 --include 16,41
+    pokemon-alerts --latitude 34.016641 --longitude -118.495146 --time 5 --distance 250 --include 16,41
 
 To receive SMS alerts when this script finds a Pokemon, you must have your own Twilio Account. Use the --twilio flag, and the script will prompt you for your phone number, Twilio phone number, Twilio SID and Twilio Auth Token.
 
-    pokemon-alerts --latitude 34.016641 --longitude -118.495146 --time --distance 250 --ignore 16,41 --twilio
+    pokemon-alerts --latitude 34.016641 --longitude -118.495146 --time 5 --distance 250 --ignore 16,41 --twilio
 
 
 ## TODO:
