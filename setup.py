@@ -18,7 +18,7 @@ setup(
     long_description=open("README.md").read(),
     install_requires=[
         "geopy==1.11.0",
-        "requests==2.10.0",
+        "requests==2.31.0",
         "twilio==5.4.0"
     ]
 )
